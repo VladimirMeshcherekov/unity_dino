@@ -50,7 +50,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\GlobalEventManager.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\ReadMe\Scripts\ReadmeVE1.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\DestroySystem.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\DestroyThisObj.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\PauseSystem.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\SummonSystem.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\Touching_System.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\dinoAnimator.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\dinoController.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\killPlayer.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/dino/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
