@@ -15,8 +15,14 @@ public class SummonSystem : MonoBehaviour
     {
         StartCoroutine(SpawnCactus());
         StartCoroutine(SpawnDecor());
+      
         GlobalEventManager.PauseOnEvent += PauseOn;
         GlobalEventManager.PauseOffEvent += PauseOff;
+        GlobalEventManager.UnsubscribeFromEvent += UnsubscribeFromEvent;
+
+
+
+
     }
 
     // Update is called once per frame
@@ -24,9 +30,10 @@ public class SummonSystem : MonoBehaviour
 
     IEnumerator SpawnCactus()
     {
-        Instantiate(Cactuses[Random.Range(0, Cactuses.Length)], transform.position, Quaternion.identity);
+        
         yield return new WaitForSecondsRealtime(timeBehaindCactusSpawn + Random.Range(0, 1f));
         StartCoroutine(SpawnCactus());
+        Instantiate(Cactuses[Random.Range(0, Cactuses.Length)], transform.position, Quaternion.identity);
     }
 
     IEnumerator SpawnDecor()
@@ -43,5 +50,12 @@ public class SummonSystem : MonoBehaviour
     void PauseOff()
     {
         StartCoroutine(SpawnCactus());
-    }    
+    }
+
+    void UnsubscribeFromEvent()
+    {
+        GlobalEventManager.PauseOnEvent -= PauseOn;
+        GlobalEventManager.PauseOffEvent -= PauseOff;
+        GlobalEventManager.UnsubscribeFromEvent -= UnsubscribeFromEvent;
+    }
 }

@@ -52,9 +52,12 @@
   <ItemGroup>
      <Compile Include="Assets\Bolt 2D DinoRun VE1\GlobalEventManager.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\ReadMe\Scripts\ReadmeVE1.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\AddScore.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\DestroySystem.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\DestroyThisObj.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\PauseSystem.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\RestartButton.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\ShowCurrentScore.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\SummonSystem.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\Touching_System.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\dinoAnimator.cs" />

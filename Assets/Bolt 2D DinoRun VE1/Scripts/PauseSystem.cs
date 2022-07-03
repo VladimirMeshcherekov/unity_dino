@@ -11,6 +11,7 @@ public class PauseSystem : MonoBehaviour
     {
         GlobalEventManager.PauseOnEvent += PauseOn;
         GlobalEventManager.PauseOffEvent += PauseOff;
+        GlobalEventManager.UnsubscribeFromEvent += UnsubscribeFromEvent;
         currentSpeed = GetComponent<Animator>().speed;
     }
 
@@ -30,6 +31,12 @@ public class PauseSystem : MonoBehaviour
         GlobalEventManager.PauseOnEvent -= PauseOn;
         GlobalEventManager.PauseOffEvent -= PauseOff;
         return true;
+    }
+    void UnsubscribeFromEvent()
+    {
+        GlobalEventManager.PauseOnEvent -= PauseOn;
+        GlobalEventManager.PauseOffEvent -= PauseOff;
+        GlobalEventManager.UnsubscribeFromEvent -= UnsubscribeFromEvent;
     }
 
 }
