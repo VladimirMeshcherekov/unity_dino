@@ -7,16 +7,10 @@
     <list default="true" id="5780cc72-c999-4d61-a76f-ae70c88d90de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dino/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dino/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/GlobalEventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/GlobalEventManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Prefabs/Cactus A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Prefabs/Cactus A.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Prefabs/Cactus B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Prefabs/Cactus B.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Prefabs/Cactus C.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Prefabs/Cactus C.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/DinoDie.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/DinoDie.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/PauseSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/PauseSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/SummonSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/SummonSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/dinoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/dinoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Demo/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Demo/Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/RestartButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bolt 2D DinoRun VE1/Scripts/RestartButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +76,8 @@
       <workItem from="1656252795684" duration="9589000" />
       <workItem from="1656495238405" duration="11704000" />
       <workItem from="1656765101613" duration="9020000" />
+      <workItem from="1656849156507" duration="61000" />
+      <workItem from="1657098287987" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="Не работает счётчик и смерть, а в целом заебумба">
       <created>1655559965312</created>

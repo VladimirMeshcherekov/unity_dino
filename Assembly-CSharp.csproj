@@ -55,6 +55,7 @@
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\AddScore.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\DestroySystem.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\DestroyThisObj.cs" />
+     <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\EventTest.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\PauseSystem.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\RestartButton.cs" />
      <Compile Include="Assets\Bolt 2D DinoRun VE1\Scripts\ShowCurrentScore.cs" />

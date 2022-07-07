@@ -8,8 +8,9 @@ public class RestartButton : MonoBehaviour
 {
     public void RestartScene()
     {
+     GlobalEventManager.UnsubscribeFromEvent();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        GlobalEventManager.UnsubscribeFromEvent();
+       
     }
 
 }
